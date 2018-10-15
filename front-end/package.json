@@ -11,13 +11,16 @@
     "react-router-dom": "^4.3.1",
     "react-scripts-ts": "3.1.0",
     "redux": "^4.0.1",
-    "styled-components": "^4.0.0"
+    "styled-components": "^4.0.0",
+    "tslint-config-prettier": "^1.15.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json",
+    "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
     "@types/d3": "^5.0.0",
@@ -30,6 +33,9 @@
     "@types/react-router-dom": "^4.3.1",
     "@types/redux": "^3.6.0",
     "@types/styled-components": "^4.0.1",
+    "husky": "^1.1.2",
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.8.0",
     "typescript": "^3.1.3"
   }
 }
