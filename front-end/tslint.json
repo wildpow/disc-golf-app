@@ -7,4 +7,5 @@
       "coverage/lcov-report/*.js"
     ]
   }
+  // "no-implicit-dependencies": [true, "dev"]
 }
