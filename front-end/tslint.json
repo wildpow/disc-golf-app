@@ -6,6 +6,8 @@
       "node_modules/**/*.ts",
       "coverage/lcov-report/*.js"
     ]
+  },
+  "rules": {
+    "no-implicit-dependencies": [true, "dev"]
   }
-  // "no-implicit-dependencies": [true, "dev"]
 }
