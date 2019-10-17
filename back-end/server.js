@@ -21,6 +21,10 @@ const connection = mongoose.connection;
 connection.once("open", () => {
   console.log("MongoDB database connection established successfully");
 });
+
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
